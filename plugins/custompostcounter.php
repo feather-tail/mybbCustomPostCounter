@@ -6,10 +6,10 @@ function custompostcounter_info()
     return [
         'name'          => 'Game Post Counter',
         'description'   => 'Counts user posts in specific forums and updates the custom field.',
-        'website'       => '',
-        'author'        => 'Your Name',
+        'website'       => 'https://github.com/feather-tail/mybbCustomPostCounter/tree/main',
+        'author'        => 'feather-tail',
         'authorsite'    => '',
-        'version'       => '2.2',
+        'version'       => '1.0',
         'compatibility' => '18*',
         'guid'          => '',
     ];
