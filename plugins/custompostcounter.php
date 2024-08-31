@@ -4,12 +4,12 @@ if (!defined('IN_MYBB')) die('Direct access not allowed.');
 function custompostcounter_info()
 {
     return [
-        'name'          => 'Custom Post Counter',
+        'name'          => 'Game Post Counter',
         'description'   => 'Counts user posts in specific forums and updates the custom field.',
-        'website'       => 'https://github.com/feather-tail',
-        'author'        => 'feather-tail',
+        'website'       => '',
+        'author'        => 'Your Name',
         'authorsite'    => '',
-        'version'       => '1.0',
+        'version'       => '2.2',
         'compatibility' => '18*',
         'guid'          => '',
     ];
@@ -91,7 +91,6 @@ function custompostcounter_activate()
 function custompostcounter_deactivate()
 {
     global $db;
- плагина
     $template = $db->simple_select('templates', 'template', "title='postbit_author_user'");
     $template_content = $db->fetch_field($template, 'template');
 
