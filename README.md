@@ -28,7 +28,7 @@ The **Custom Post Counter** plugin for MyBB 1.8 allows you to count user posts i
 After installing and activating the plugin, you can configure it by:
 
 1. Going to the `Custom Post Counter Settings` section in the settings panel.
-2. Enter the IDs of the forums you want to track, separated by commas (e.g., `2,5,10`).
+2. Enter the IDs of the forums you want to track, separated by commas (e.g., `2,5,10`) (you can look up the forum id, for example, in the database)
 
 ## Uninstallation
 
